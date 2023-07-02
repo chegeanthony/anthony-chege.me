@@ -1,22 +1,28 @@
 ---
-name: Ondiek Elijah
+name: Anthony Chege
 avatar: /static/images/ondiek.png
-occupation: Software Engineer, Technical Writer & Community Advocate
+occupation: Machine Learning Engineer, Smart Contract Developer & Technical Writer
 company:
-email: eochieng9448@gmail.com
-twitter: https://twitter.com/0ndiekElijah
-linkedin: https://www.linkedin.com/in/ondiek-elijah/
-github: https://github.com/ondiekelijah
+email: anthonychege599@gmail.com
+twitter: https://twitter.com/Tonycodh
+linkedin: https://www.linkedin.com/in/anthony-chege-383893227/
+github: https://github.com/chegeanthony
 ---
 
-Hello World! My name is **Ondiek Elijah Ochieng**. I’m a **Software Engineer**, **a technical article writer** and a **community advocate**.
+Hello World!I am **Anthony Chege**. a passionate **Machine Learning engineer**,an innovative **Smart Contract Developer** and a proficient **Technical writer**.
 
-As an active member of the tech community, I have made significant contributions through my roles as an author at SheCodeAfrica, Nairobi, a visual designer at Lux Tech Academy, a gold Microsoft Learn Student Ambassador, GDSC Lead, and AWS Community Builder. Additionally, I share my expertise as an author for [Educative Inc](https://www.educative.io/) and [Draft.dev](https://draft.dev/). Through these roles, I strive to empower and inspire individuals to learn and grow in the tech ecosystem.
+As a dynamic participant in the tech space, I've made substantial contributions to the community through my engagement as a Microsoft Student Ambassador, GDSC Lead, and AWS Community Builder. Further, I actively disseminate my knowledge as a contributing author for [Educative Inc](https://www.educative.io/), [Dev.to](https://dev.to/) and [Medium](https://medium.com/). My core aim through these platforms is to inspire individuals and empower them to evolve within the technology landscape.
 
-During my years of professional development, I've been able to gain professional and practical knowledge of the following programming languages and tools.
+Over the years, I have accumulated substantial proficiency and practical expertise in a variety of programming languages and technical tools.
 
-**Languages:** `HTML5, CSS3, Python, JavaScript (ES6), SQL`
+**Languages:** `Python, Solidity, web3.js, Golang `
 
-**Frameworks:** `Flask, FastAPI, React, Next.js, Node.js, Express.js, Bootstrap5, TailwindCSS, Material UI`
+**Frameworks:** `TensorFlow, PyTorch, Scikit-learn, Keras, Pandas, Truffle and web3.js`
 
-**Tools and Skills**: `Git, GitHub & GitLab, Docker, RabbitMQ, AWS, Azure, Heroku, Digital Ocean, Sanity.io, HygraphCMS, GraphQL, Netlify, MySQL, MongoDB and PostgreSQL databases, Linux, Microservices, REST and GraphQL APIs, automation Testing(Manual and Automated) with Cypress, Pact, Pytest, Jest, Chai, Mocha, CircleCI and GitHub actions, Technical Writing.`
+**Tools and Skills**: `Git, GitHub, Chainlinks, Docker, AWS, Azure, MySQL, and PostgreSQL databases, Linux, Microservices with Go, REST and GraphQL APIs, and GitHub actions, I also have a knack for Technical Writing.`
+
+As a Machine Learning Engineer, I've become proficient in tools and concepts related to Data Analysis, Model Training & Evaluation, Neural Networks, and Deep Learning.
+
+As a Smart Contract Developer, my skills extend to Ethereum Blockchain, Token Creation, and Smart Contract Auditing.
+
+I am on a constant journey of learning and adapting to keep pace with the ever-evolving landscape of technology.

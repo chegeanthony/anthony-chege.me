@@ -1,9 +1,9 @@
 ---
-title: End-To-End Testing With Cypress
-date: '2022-10-04'
-tags: ['Node.js', 'Express.js', 'React.js', 'Cypress']
+title: Smart Contracts and DeFi
+date: '2023-07-02'
+tags: ['solidity', 'Web3.js', 'NFTs', 'DeFi']
 draft: false
-summary: 'In this blog post, we will be looking at end-to-end testing with Cypress. We will see how to set up Cypress and write some tests for a simple web application. By the end, you should have a good understanding of how Cypress works and how to use it to test your own web applications.'
+summary: 'In this blog post, we will be looking at Smart contracts and DeFi application. Writing them and interacting with them using Web3.js .'
 ---
 
 # Introduction

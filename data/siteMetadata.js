@@ -1,19 +1,19 @@
 const siteMetadata = {
-  title: 'Ondiek Elijah',
-  author: 'Ondiek Elijah',
+  title: 'Anthony Chege',
+  author: 'Anthony Chege',
   headerTitle: 'Dev Elie',
-  description: "Ondiek Elijah's personal blog",
+  description: "Anthony Chege's personal blog",
   language: 'en-us',
   theme: 'dark', // system, dark or light
-  siteUrl: 'https://www.ondiek-elijah.me/',
-  siteRepo: 'https://github.com/ondiekelijah/ondiek-elijah',
+  siteUrl: 'https://www.anthony-chege.me/',
+  siteRepo: 'https://github.com/chegeanthony/anthony-chege',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/ondiek.png',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'eochieng9448@gmail.com',
-  github: 'https://github.com/ondiekelijah',
-  twitter: 'https://twitter.com/0ndiekElijah',
-  linkedin: 'https://www.linkedin.com/in/ondiek-elijah-2aaba4198/',
+  email: 'anthonychege599@gmail.com',
+  github: 'https://github.com/chegeanthony',
+  twitter: 'https://twitter.com/Tonycodh',
+  linkedin: 'https://www.linkedin.com/in/anthony-chege-383893227/',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
