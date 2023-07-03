@@ -6,10 +6,11 @@ import '@fontsource/inter/variable-full.css'
 
 import { ThemeProvider } from 'next-themes'
 import Head from 'next/head'
+import { useEffect } from 'react'
 
 import siteMetadata from '@/data/siteMetadata'
 import Analytics from '@/components/analytics'
-import enableGoogleAdsense from '@/components/ads'
+import enableGoogleAdsense from '@/components/ads/index.js'
 import LayoutWrapper from '@/components/LayoutWrapper'
 import { ClientReload } from '@/components/ClientReload'
 
@@ -17,6 +18,10 @@ const isDevelopment = process.env.NODE_ENV === 'development'
 const isSocket = process.env.SOCKET
 
 export default function App({ Component, pageProps }) {
+  useEffect(() => {
+    enableGoogleAdsense()
+  }, [])
+
   return (
     <ThemeProvider attribute="class" defaultTheme={siteMetadata.theme}>
       <Head>
@@ -24,7 +29,6 @@ export default function App({ Component, pageProps }) {
       </Head>
       {isDevelopment && isSocket && <ClientReload />}
       <Analytics />
-      <enableGoogleAdsense />
       <LayoutWrapper>
         <Component {...pageProps} />
       </LayoutWrapper>
