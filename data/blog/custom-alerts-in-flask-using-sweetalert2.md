@@ -6,8 +6,6 @@ draft: false
 summary: 'This article describes how to use Sweetalert2 to create custom alerts in Flask Jinja templates. Learn how to display alerts in a way that users will appreciate.'
 ---
 
-Originally posted on [Hashnode.](https://develie.hashnode.dev/custom-alerts-in-flask-using-sweetalert2)
-
 #### What's the difference between an alert and a notification?
 
 An alert is a signal (a badge, sounds, a missing mandatory field, a success/fail message) that tells the user that they should look at something. It is frequently in the context of their current task.

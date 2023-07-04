@@ -6,8 +6,6 @@ draft: false
 summary: 'Implementation of a microservice architecture using Node.js and RabbitMQ to create an eCommerce  platform.'
 ---
 
-Originally posted on [She Code Africa, Nairobi blog.](https://scanairobi.hashnode.dev/microservices-with-nodejs-and-rabbitmq)
-
 # Introduction
 
 With technological advancements, the phrase "innovate or die" has become the mantra of many businesses that effortlessly update to stay relevant and keep operations running. Organizations are now designing their applications around the microservice architecture due to the ease with which each service can be built, deployed, updated, tested, and scaled independently.
