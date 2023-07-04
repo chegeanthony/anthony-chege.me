@@ -9,6 +9,9 @@ tags: ['Blockchain', 'Ethereum', 'NFTs']
 
 Non-Fungible Tokens (NFTs) have become a popular topic in the blockchain community. They offer a way to prove ownership of a piece of digital content on the blockchain. In this guide, we'll go through the steps to deploy an NFT on the Ethereum network.
 
+
+
+
 # Prerequisites
 
 Before we start, you'll need the following:
@@ -58,7 +61,6 @@ To compile your smart contract, you'll need a Solidity compiler. You can use the
 
 ```
 npm install -g truffle
-
 ```
 
 Then, you can compile your smart contract using the truffle compile command. Make sure your contract file is located in the contracts folder in your Truffle project.
@@ -147,8 +149,12 @@ This will mint a new NFT and return its ID.
 
 Deploying an NFT on the Ethereum network can seem like a daunting task, but with the right tools, it's a straightforward process. With Solidity, OpenZeppelin, and Truffle, you can write, compile, and deploy a smart contract for creating unique tokens. The possibilities for what you can do with NFTs are vast, from digital art and music to virtual real estate and more.
 
-![NFT Image] ()
-OH! and a quick tip :( Remember to always be mindful of the gas fees associated with deploying contracts and minting NFTs on the Ethereum network. These costs can fluctuate and become quite high when the network is busy.
+Below is an example of a digital art (Olycoin)
+
+![Olycoin](https://github.com/chegeanthony/anthony-chege.me/assets/91752484/a1691da5-ca37-4e04-84ff-fd4f748ea1ba)
+
+
+OH! a quick tip :( Remember to always be mindful of the gas fees associated with deploying contracts and minting NFTs on the Ethereum network. These costs can fluctuate and become quite high when the network is busy.
 
 In this guide, we only scratched the surface of what's possible with NFTs and Ethereum. I encourage you to continue exploring this exciting area of technology.
 
@@ -156,7 +162,6 @@ Happy coding!
 
 ```
 ~ Tony 😄
-
 ```
 
 # References
