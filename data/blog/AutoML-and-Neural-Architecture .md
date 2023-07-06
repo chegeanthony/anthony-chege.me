@@ -3,7 +3,7 @@ title: AutoML and Neural Architecture Search. Paving the Way for Advanced Machin
 date: '2023-07-06'
 tags: ['ML', 'AI', 'Deep Learning']
 draft: false
-summary: 'This blog explores AutoML and NAS, critical in optimizing machine learning. We use examples to discuss their importance and hurdles.'
+summary: 'This blog explores AutoML and NAS, critical in optimizing machine learning. .'
 ---
 
 ## Introduction
