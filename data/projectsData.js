@@ -1,13 +1,13 @@
 const projectsData = [
   {
-    title: 'Student Assistant Chat Bot',
+    title: 'NFT Collection',
     description: `A simple Whatsapp bot for guiding students built with Twilio as the messaging client, 
     Google's Dialog flow for intent filtering, and runs on a Node.js server.`,
     imgSrc: '/static/images/projects/bot.png',
     href: 'https://github.com/ondiekelijah/Student_assistant_bot',
   },
   {
-    title: 'GraphQL e-commerce API',
+    title: 'ARM  robot in Matlab',
     description: `An e-commerce API that runs on a Node.js server and uses GraphQL as a 
     query language. Optimizes 
     CRUD operation queries and provides support for product reviews and ratings..`,
@@ -46,22 +46,22 @@ const projectsData = [
     href: 'https://github.com/ondiekelijah/Threaded-Replies-using-Flask-SQLAlchemy-MySQL',
   },
   {
-    title: 'Web Scrapper',
-    description: `A Basic Web Crawler. Using a URL and an HTML tag supplied by the user, scrapes the page and returns the total number of elements fetched before displaying the scraped results.`,
+    title: 'Olycoin',
+    description: `A Crpto token meant to revolutionize financial sector in Africa, It's one of the most growing tokes and being traded in Africa.`,
     imgSrc: '/static/images/projects/web-scrapper.png',
-    href: 'https://github.com/ondiekelijah/Simple-Web-Crawler',
+    href: 'https://github.com/chegeanthony/OLYCOIN',
   },
   {
-    title: 'Mema Africa Website',
-    description: `Official website of Mema Africa, a boutique consulting firm that provides businesses with value-driven marketing solutions.`,
+    title: 'Nft Marker place Website',
+    description: `Official market-place website of NFTs,(Credit ~ Cris).`,
     imgSrc: '/static/images/projects/memaafrica.png',
     href: 'https://www.memaafrica.com/',
   },
   {
-    title: 'Itesyl Technologies Website',
+    title: 'Olyix Technologies Website',
     description: `Official website for Itesyl Technologies, a fintech company that provides real estate banking services.`,
     imgSrc: '/static/images/projects/itesyl.png',
-    href: 'https://itesyl.com/',
+    href: 'https://olyix.com/',
   },
   {
     title: 'Kodeec Website',
