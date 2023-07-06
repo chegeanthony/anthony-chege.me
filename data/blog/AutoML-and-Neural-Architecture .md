@@ -3,7 +3,7 @@ title: AutoML and Neural Architecture Search. Paving the Way for Advanced Machin
 date: '2023-07-06'
 tags: ['ML', 'AI', 'Deep Learning']
 draft: false
-summary: 'This blog explores AutoML and NAS, critical in optimizing machine learning. .'
+summary: 'This blog explores AutoML and NAS, critical in optimizing machine learning.'
 ---
 
 ## Introduction
@@ -12,7 +12,7 @@ Automated Machine Learning (AutoML) is a fast-evolving subfield of artificial in
 
 Within AutoML lies Neural Architecture Search (NAS), a specific area focused on the automated design of neural network architectures. NAS eliminates the laborious process of manual architecture design and tuning, using optimization methods to discover the most suitable architecture for a given task and dataset. With its potential to outperform manual designs, NAS paves the way for more innovative applications and accelerates scientific progress.
 
-## Part 1: A Primer on Automated Machine Learning (AutoML)
+# Part 1: A Primer on Automated Machine Learning (AutoML)
 
 Automated Machine Learning (AutoML) signifies the automation of the entire machine learning process. This process includes steps such as data preprocessing, feature engineering, model selection, hyperparameter tuning, and evaluation of model performance.
 
@@ -51,7 +51,7 @@ print("R2 score:", sklearn.metrics.r2_score(y_test, y_pred))
 
 In the above code snippet, we use auto-sklearn library, a popular AutoML library in Python. We initialize the AutoSklearnRegressor, which will automatically handle the model selection and hyperparameter tuning. The fit function runs the AutoML process, and then we evaluate the model's performance using the R^2 score. The time_left_for_this_task and per_run_time_limit parameters control the amount of time the AutoML process has to run, allowing us to balance between computational cost and model performance.
 
-## Why AutoML?
+# Why AutoML?
 
 # Efficiency
 
@@ -86,7 +86,7 @@ automl.fit(X_train, y_train)
 
 AutoML is transforming the way we develop and apply machine learning models by improving efficiency, accessibility, and reproducibility. It's a pivotal tool for any modern data-driven organization.
 
-## AutoML Challenges
+# AutoML Challenges
 
 Despite its numerous advantages, AutoML is not without its challenges. Some of the key issues include overfitting, computation time, and lack of transparency.
 
@@ -124,52 +124,3 @@ automl.fit(X_train, y_train)
 ```
 
 In summary while AutoML is an extremely promising tool in the machine learning landscape, it's important to understand its limitations. Awareness of these challenges can help in better leveraging AutoML for practical applications.
-
-## Part 2: Diving into Neural Architecture Search (NAS)
-
-A neural network architecture defines the configuration of the neurons and layers, including the types of layers (e.g., convolutional, recurrent), the connections between layers, and the number of neurons in each layer. NAS treats the architecture design process as a search problem in a predefined space of potential architectures.
-
-```py
-# Code snippet: example of using NAS in Python with AutoKeras
-from autokeras import ImageClassifier
-import numpy as np
-
-# Prepare dummy image data
-x_train = np.random.rand(100, 32, 32, 3)
-y_train = np.random.randint(0, 10, 100)
-
-# Initialize the ImageClassifier which will perform the NAS
-clf = ImageClassifier(max_trials=10)
-
-# Search for the best model.
-clf.fit(x_train, y_train, epochs=10)
-
-```
-
-The code snippet above uses the AutoKeras library to illustrate the use of NAS. The ImageClassifier is given a maximum number of trials to find the best model architecture for our dummy image data.
-
-# NAS: Opportunities and Challenges
-
-NAS offers the opportunity to discover optimized models that can outperform manually designed architectures. It can explore a larger design space than a human and find novel architectures that a human designer might not consider.
-
-However, NAS also presents challenges. The computation cost of NAS can be extremely high because it involves training numerous networks during the search process. Furthermore, like AutoML, NAS lacks interpretability - the resulting architectures can be complex and hard to understand.
-
-# Cutting-Edge NAS Approaches
-
-Differentiable NAS, Bayesian NAS, and reinforcement learning-based NAS are some of the cutting-edge approaches in NAS. Differentiable NAS uses gradient-based methods to optimize the architecture, making the search process more efficient. Bayesian NAS uses Bayesian optimization to guide the search process, balancing exploration and exploitation. Reinforcement learning-based NAS uses a controller to propose architectures, which are then trained and evaluated, and the feedback is used to update the controller.
-
-## Part 3: Comparing AutoML and NAS
-
-While both AutoML and NAS aim to automate parts of the machine learning process, they focus on different areas. AutoML covers the end-to-end process, including data preprocessing, feature engineering, model selection, and hyperparameter tuning. On the other hand, NAS specifically targets the design of neural network architectures.
-
-## Part 4: Looking Ahead: The Future of AutoML and NAS
-
-As machine learning continues to advance, both AutoML and NAS will play pivotal roles. They will continue to evolve, with more efficient algorithms, more comprehensive search spaces, and better ways to balance performance and computational cost. However, they also face challenges, such as improving transparency and interpretability, ensuring robustness and fairness, and integrating domain knowledge.
-
-## Conclusion
-
-Bravo! you've reached the end of this blog post 😄
-
-we have have read that AutoML and NAS are revolutionizing the way we develop and apply machine learning models right?. this is achived By automating laborious tasks, they make machine learning more efficient, accessible, and reproducible. Understanding their capabilities, opportunities, and challenges is key for Machine Learning Engineer
-
-Thank you for reading. Please like, share, and leave a comment below.
