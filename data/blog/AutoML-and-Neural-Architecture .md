@@ -1,5 +1,5 @@
 ---
-title: AutoML and Neural Architecture Search. Paving the Way for Advanced Machine Learning
+title: AutoML and Neural Architecture Search. 
 date: '2023-07-06'
 tags: ['ML', 'AI', 'Deep Learning']
 draft: false
